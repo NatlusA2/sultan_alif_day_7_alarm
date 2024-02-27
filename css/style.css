@@ -1,0 +1,74 @@
+* {
+  font-family: Nunito;
+}
+
+body,
+.wrapper,
+.content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.wrapper {
+  border-radius: 10px;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  margin-top: 7rem;
+  padding: 30px;
+  background-color: rgb(171, 233, 235);
+}
+
+.wrapper img {
+  width: 100px;
+}
+
+.wrapper h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgb(83, 79, 79);
+}
+
+.wrapper .content {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper .content.disable {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.content .column {
+  border: solid 1px rgb(172, 172, 172);
+  width: calc(100% / 3-5px);
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.column select {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 100%;
+  font-size: 19px;
+  background-color: rgb(171, 233, 235);
+}
+
+.column option {
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.wrapper button {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 19px;
+  background-color: aliceblue;
+  cursor: pointer;
+}
